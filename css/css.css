@@ -51,8 +51,10 @@ nav > a {
 	margin-right: 10px;
 }
 
-nav > a:hover{text-decoration: underline;
+nav > a:hover{text-decoration: none;
 }
+
+a {text-decoration: none;}
 
 header.textos-header{
 	display: flex;
@@ -141,7 +143,7 @@ width: 48%
 	flex-wrap: wrap;
 }
 .imagen-port{
-	width: 24%;
+	width: 330px;
 	margin-bottom: 10px;
 	height: 150px;
 	overflow: hidden;
@@ -183,8 +185,9 @@ width: 48%
 
 /* galeria */
 .table-one table, tr, th, td {
-  background-color: #99ddff;
-  border-color: #99ddff;
+  background-color: rgba(0, 138, 230, 0.12);
+  border-color: rgba(0, 138, 230, 0.12);
   margin-left: auto;
   margin-right: auto;
+  border-collapse: collapse;
 }

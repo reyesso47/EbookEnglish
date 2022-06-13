@@ -7,9 +7,9 @@
             Wo = [
                 '<i>Laptop</i>',
                 '<i>Database</i>',
-                '<i></i>',
-                '<i></i>',
-                '<i></i>',
+                '<i>Recorded</i>',
+                '<i>Logged</i>',
+                '<i>Electronic till</i>',
                
 
                 

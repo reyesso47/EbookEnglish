@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Reading Exercise</title>
+		<link rel="stylesheet" href="U5Er.css">
+	</head>
+	<body>
+		<header>
+			<h1>Unit 5 </h1>
+			<p>Below is an e-mail, read its content and answer the following:</p>
+		</header>
+
+		<div class="container">
+			<br>
+			<img src="U5Er.jpg" >
+		</div>
+
+		<div class="container">	
+			<section id="p0">
+				<h3>Who is this email from?</h3>
+				<label>
+					<input type="radio" value="1" name="p0" onclick="respuesta(0,this)">A)	An employee.
+				</label>
+				<label>
+					<input type="radio" value="2" name="p0" onclick="respuesta(0,this)">B)	IT specialist
+				</label>
+				<label>
+					<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">C)	C.E.O
+				</label>
+			</section>
+
+			<section id="p1">
+				<h3>Who is the email to?</h3>
+				<label>
+					<input type="radio" value="1" name="p1" onclick="respuesta(1,this)">A)	All employees
+				</label>
+				<label>
+					<input type="radio" value="2" name="p1" onclick="respuesta(1,this)">B)	C.E.O.
+				</label>
+				<label>
+					<input type="radio" value="3" name="p1" onclick="respuesta(1,this)">C)	IT specialist
+				</label>
+			</section>
+
+			<section id="p2">
+				<h3>Whats is the basic problem being discussed?</h3>
+				<label>
+					<input type="radio" value="1" name="p2" onclick="respuesta(2,this)">A)	Lost a few company laptops and memory sticks.
+				</label>
+				<label>
+					<input type="radio" value="2" name="p2" onclick="respuesta(2,this)">B)	A victim of ID Theft and lost of sensitive trading information.
+				</label>
+				<label>
+					<input type="radio" value="3" name="p2" onclick="respuesta(2,this)">C)	A apologized.
+				</label>
+			</section>
+
+			<section id="p3">
+				<h3>What Will the rest of the email be about?</h3>
+				<label>
+					<input type="radio" value="1" name="p3" onclick="respuesta(3,this)">A)	New Security Rules and apologized.
+				</label>
+				<label>
+					<input type="radio" value="2" name="p3" onclick="respuesta(3,this)">B)	Result of diciplinary action up
+				</label>
+				<label>
+					<input type="radio" value="3" name="p3" onclick="respuesta(3,this)">C)	A very issue for us all.
+				</label>
+			</section>
+
+
+			<button onclick="corregir()">Check</button>
+			<h2>Score amount: <span id="resultado"></span></h2>
+		</div>
+		<script type="text/javascript" src="C:\Users\trafa\Desktop\ingles\ejercicios\U5Er.js">
+		</script>
+
+	</body>
+</html>
